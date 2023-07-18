@@ -86,5 +86,7 @@
   #  wget
   ];
 
+  virtualisation.vmware.guest.enable = true;
+
   system.stateVersion = "23.05";
 }
